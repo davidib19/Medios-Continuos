@@ -1,0 +1,94 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage{float}				%Para poner las imagenes exactamente donde se me cante las pelotas en caso de quererlo, poniendole [H]
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{geometry}
+\usepackage{hieroglf}
+\usepackage{subcaption}
+\usepackage[justification=centering]{caption}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\geometry{
+a4paper,
+left=20mm,
+right=20mm,
+top=25mm,
+bottom = 20mm
+}
+\usepackage{float}
+\usepackage{units}
+\marginparwidth=2cm
+\usepackage[colorinlistoftodos]{todonotes}
+
+% \usepackage{hyperref}   %Esto es para ir a los links
+
+\title{\mathbf{Mécanica de Medios Continuos \\Practica 0 \\ Álgebra y cálculo vectorial y tensorial}}
+\author{Universidad de Cuenca}
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item Como vimos en clase, un tensor puede ser representado como la suma de un tensor simétrico y un tensor antisimétrico. 
+    Esta descomposición es útil para calcular propiedades de los tensores ya que cada componente contiene distinta información como veremos en los siguientes ejercicios.
+    \begin{enumerate}
+        \item Demostrar que la traza de un tensor es igual a la traza de su componente simétrica.
+        \item Demostrar que la determinante de un tensor antisimétrico de tamaño impar es igual a 0.
+        \item Calcular la matriz de componentes del tensor definido por la rotación de vectores en 3 dimensiones en un ángulo $\theta$ en torno al eje $\mathbf{e}_1$.
+    \end{enumerate}
+    \item Dados los tensores de orden 1 $\mathbf{u}, \mathbf{v}$ y $\mathbf{w}$, y el tensor de orden 2 $\mathbf{A}$, 
+    escriba en notación inicial las siguientes expresiones:
+    \begin{enumerate}
+        \item $\mathbf{u} \cdot \mathbf{v}$
+        \item $\mathbf{u} \times \mathbf{v}$
+        \item $\mathbf{u} \otimes \mathbf{v}$
+        \item $\mathbf{u} \cdot (\mathbf{v}\times \mathbf{w})$
+        \item $\mathbf{u} \times( \mathbf{v}\times \mathbf{w})$
+        \item $\mathbf{A} \cdot \mathbf{v}$
+        \item $\mathbf{u} \cdot \mathbf{A} \mathbf{v}$
+        \item $\mathbf{A}  (\mathbf{u}\otimes\mathbf{v})$
+        \item $tr(\mathbf{u} \otimes \mathbf{v})$
+        \item $tr(\mathbf{A})$
+        \item $Det(\mathbf{A})$
+    \end{enumerate}
+    \textbf{Ayuda}: Para el determinante emplear el símbolo de Levi-Civita.  
+    \item Dado un vector arbitrario $\mathbf{v}$ y un vector unitario $\mathbf{n}$, demostrar:
+    \begin{enumerate}
+        \item $\mathbf{v}=\mathbf{v}\cdot\mathbf{n}-(\mathbf{v} \times \mathbf{n})\times \mathbf{n}$
+    \end{enumerate}
+    \item Un tensor $\mathbf{P}$ de orden 2  es una \textbf{Proyección ortogonal} si es simétrico y $\mathbf{P=P^2}$. Dados dos vectores unitarios arbitrarios $\mathbf{n}$ y $\mathbf{m}$, determine cuáles de los siguientes tensores es una proyección perpendicular.
+    \begin{enumerate}
+        \item $\mathbf{P}=\mathbf{I}$
+        \item $\mathbf{P}=\mathbf{n}\otimes\mathbf{n}$
+        \item $\mathbf{P}=\mathbf{m}\otimes\mathbf{m}$
+        \item $\mathbf{P}=\mathbf{I}-\mathbf{m}\otimes\mathbf{m}$
+        \item $\mathbf{P}=\mathbf{m}\otimes\mathbf{n}+\mathbf{n}\otimes\mathbf{m}$
+    \end{enumerate}
+    \item Dados el campo vectorial 
+        $\mathbf{v}=x_1 \mathbf{e}_1+x_2 x_1 \mathbf{e}_2+x_3 x_1 \mathbf{e}_3$ y el campo tensorial
+        \\$\mathbf{S} (\mathbf{x})=x_2 \mathbf{e}_1\otimes\mathbf{e}_2+x_1 x_3 \mathbf{e}_3\otimes\mathbf{e}_3$ Calcular:
+    \begin{enumerate}
+        \item $\nabla\cdot\mathbf{v}$
+        \item $\nabla\times\mathbf{v}$
+        \item $\nabla\cdot\mathbf{S}$
+    \end{enumerate}
+    \item Dados el campo escalar $\phi(\mathbf{x})$, el campo vectorial $\mathbf{v}$ escriba en notación indicial las expresiones a y b, y demostrar las demás:
+    \begin{enumerate}
+        \item $\nabla\cdot\mathbf{v}$
+        \item $\nabla\phi$
+        \item $\nabla\cdot (\phi\mathbf{v})= (\nabla\phi)\cdot\mathbf{v}+\phi(\nabla\cdot\mathbf{v})$
+        \item $\nabla(\phi\mathbf{v}) = \phi\nabla\mathbf{v} + \mathbf{v}\otimes\nabla\phi$
+        \item $\nabla\times(\phi\mathbf{v}) =\phi\nabla\times\mathbf{v} + (\nabla\phi)\times\mathbf{v}$
+    
+    \end{enumerate}
+    \item Dado el campo escalar $\phi(\mathbf{x})$, el campo vectorial $\mathbf{v}$ y el tensor de orden 2 $\mathbf{S}$, demostrar:
+    \begin{enumerate}
+        \item $\nabla\cdot (\phi\mathbf{S}) = \phi(\nabla\cdot \mathbf{S}) + \mathbf{S} \nabla\phi$
+        \item $\nabla\cdot (\mathbf{S}^\mathrm{T}\mathbf{v}) = (\nabla\cdot \mathbf{S})\cdot \mathbf{v} + \mathbf{S}: \nabla\mathbf{v}$
+        \item $\nabla\cdot (\phi\mathbf{S}\mathbf{v}) = \phi(\nabla\cdot \mathbf{S}^\mathrm{T})\cdot \mathbf{v} + \nabla\phi\cdot (\mathbf{S}\mathbf{v}) + \phi\mathbf{S}: (\nabla\mathbf{v})^\mathrm{T}$
+        \item $\nabla\cdot (\mathbf{S}\mathbf{v}) = \mathbf{S}^\mathrm{T}: \nabla\mathbf{v} + \mathbf{v} \cdot (\nabla\cdot \mathbf{S})$
+
+    \end{enumerate}
+\end{enumerate}
+\end{document}

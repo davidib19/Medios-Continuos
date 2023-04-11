@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage{float}				%Para poner las imagenes exactamente donde se me cante las pelotas en caso de quererlo, poniendole [H]
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{geometry}
+\usepackage{hieroglf}
+\usepackage{subcaption}
+\usepackage[justification=centering]{caption}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\geometry{
+a4paper,
+left=20mm,
+right=20mm,
+top=25mm,
+bottom = 20mm
+}
+\usepackage{float}
+\usepackage{units}
+\marginparwidth=2cm
+\usepackage[colorinlistoftodos]{todonotes}
+
+% \usepackage{hyperref}   %Esto es para ir a los links
+
+\title{\textbf{Mécanica de Medios Continuos}}
+\author{Universidad de Cuenca}
+\begin{document}
+\maketitle
+\section*{Trayectoria  y Líneas de corriente }
+La Trayectoria es el camino que sigue una partícula fija y obedece la ecuación \ref{eq:Trayectoria}.
+\begin{equation}
+    \frac{d\underline{x}}{dt}=\underline{v}(\underline{x},t) \underline{x}(0)=\underline{X}
+    \label{eq:Trayectoria}
+\end{equation}
+La linea de corriente es una linea tangente a las velocidades que tienen las partículas en un momento fijo y sigue la ecuación \ref{eq:lineacorriente}.
+\begin{equation}
+    \frac{d\underline{x}}{d\lambda}(\lambda)=\underline{v}(\underline{x}(\lambda);t*) \underline{x}(0)=\underline{x*}
+    \label{eq:lineacorriente}
+\end{equation}
+\textbf{Ejemplo} $v_1=x_1 v_2=x_k$ y $v_3=3x_3^2$.\\
+k:constante\\
+$[\underline{v}]=\begin{bmatrix}
+    x1\\k\\3x_3^2
+\end{bmatrix}=\begin{bmatrix}
+    v_1\\v_2\\v_3
+\end{bmatrix}$\\
+Tratectorias:\\
+$dx_i/dt=v_i$\\
+$x_i(0)=X_i$
+\begin{align}
+    \frac{dx_1}{dt}&=x_1\\
+    \frac{dx_2}{dt}&=k\\
+    \frac{dx_3}{dt}&=3x_3^2
+\end{align}
+\begin{align}
+    x_1&=\pm e^{s+t}\\
+    x_2&=kt+C_2\\
+    x_3&=\frac{-1}{3t+C_3}
+\end{align}
+\end{document}
