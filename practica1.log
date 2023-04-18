@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2023.4.10)  11 APR 2023 12:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2023.4.10)  17 APR 2023 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/bicho/OneDrive/Documentos/universidad de cuenca/Medios Continuos/Practica0.tex"
-(c:/Users/bicho/OneDrive/Documentos/universidad de cuenca/Medios Continuos/Practica0.tex
+**"c:/Users/bicho/OneDrive/Documentos/universidad de cuenca/Medios Continuos/practica1.tex"
+(c:/Users/bicho/OneDrive/Documentos/universidad de cuenca/Medios Continuos/practica1.tex
 LaTeX2e <2022-11-01>
 L3 programming layer <2022-11-02> (C:\Users\bicho\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -547,8 +547,8 @@ File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count319
 \l__pdf_internal_box=\box67
 )
-No file Practica0.aux.
-\openout1 = `Practica0.aux'.
+No file practica1.aux.
+\openout1 = `practica1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -624,10 +624,10 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 30.
 \@outlinefile=\write4
-\openout4 = `Practica0.out'.
+\openout4 = `practica1.out'.
 
 
-c:/Users/bicho/OneDrive/Documentos/universidad de cuenca/Medios Continuos/Practica0.tex:32: LaTeX Error: \mathbf allowed only in math mode.
+c:/Users/bicho/OneDrive/Documentos/universidad de cuenca/Medios Continuos/practica1.tex:32: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -640,31 +640,31 @@ If that doesn't work, type  X <return>  to quit.
 
 [1
 
-{C:/Users/bicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (Practica0.aux
+{C:/Users/bicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (practica1.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
 
-Package rerunfilecheck Warning: File `Practica0.out' has changed.
+Package rerunfilecheck Warning: File `practica1.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `Practica0.out':
+Package rerunfilecheck Info: Checksums for `practica1.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23689 strings out of 475284
- 448311 string characters out of 2774105
- 786293 words of memory out of 3000000
- 44735 multiletter control sequences out of 15000+600000
+ 23661 strings out of 475284
+ 448149 string characters out of 2774105
+ 782280 words of memory out of 3000000
+ 44736 multiletter control sequences out of 15000+600000
  475607 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,94p,495b,638s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Practica0.pdf (2 pages, 100576 bytes).
+ 99i,6n,94p,495b,450s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on practica1.pdf (1 page, 104544 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

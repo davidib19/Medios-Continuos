@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage{float}				%Para poner las imagenes exactamente donde se me cante las pelotas en caso de quererlo, poniendole [H]
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{geometry}
+\usepackage{hieroglf}
+\usepackage{subcaption}
+\usepackage[justification=centering]{caption}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\geometry{
+a4paper,
+left=20mm,
+right=20mm,
+top=25mm,
+bottom = 20mm
+}
+\usepackage{float}
+\usepackage{units}
+\marginparwidth=2cm
+\usepackage[colorinlistoftodos]{todonotes}
+
+% \usepackage{hyperref}   %Esto es para ir a los links
+
+\title{\mathbf{Mecánica de Medios Continuos \\Práctica 1 \\ Descripción del movimiento}}
+\author{Universidad de Cuenca}
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item Dado el movimiento descrito por:
+        \begin{equation}
+            x_1=e^{t}X_1+X_3,\quad x_2=X_2,\quad x_3=X_3-tX_1.
+        \end{equation}
+        \begin{enumerate}
+            \item Encontrar la descripción espacial del campo B=$X_1+t$.
+            \item Encontrar la descripción material del campo c=$x_1+t$.
+        \end{enumerate}
+    \item Sea el campo bidimensional de velocidades $\mathbf{v}=(v_0,\frac{tx_1}{T})$, donde $u_0$ y $T$ son constantes, calcular las líneas de corriente y especificar la que pasa por el origen de coordenadas en t=0. Calcular lo mismo para las trayectorias.
+    \item Para el campo de velocidades en tres dimensiones:
+    \begin{equation}
+        \mathbf{v}=\left(\frac{x_1}{1+t},\frac{2x_2}{1+t},\frac{3x_3}{1+t}\right),
+    \end{equation}
+    obtener las componentes de aceleración. Determinar las líneas de corriente y las trayectorias.
+    \item Justificar si son ciertas o falsas las siguientes afirmaciones:
+    \begin{enumerate}
+        \item Si el campo de velocidades es estacionario, el campo de aceleraciones también lo es.
+        \item Si el campo de velocidades es uniforme, el campo de aceleraciones es siempre nulo.
+        \item Si el campo de velocidades es estacionario y el medio es incompresible, el campo de aceleraciones es siempre nulo.
+    \end{enumerate}
+\end{enumerate}
+\end{document}
