@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage{float}				%Para poner las imagenes exactamente donde se me cante las pelotas en caso de quererlo, poniendole [H]
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{geometry}
+\usepackage{hieroglf}
+\usepackage{subcaption}
+\usepackage[justification=centering]{caption}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\geometry{
+a4paper,
+left=20mm,
+right=20mm,
+top=25mm,
+bottom = 20mm
+}
+\usepackage{float}
+\usepackage{units}
+\marginparwidth=2cm
+\usepackage[colorinlistoftodos]{todonotes}
+
+% \usepackage{hyperref}   %Esto es para ir a los links
+
+\title{\mathbf{Mecánica de Medios Continuos \\Práctica 3 \\ Descripción de la deformación}}
+\author{Universidad de Cuenca}
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item Se sabe que el tensor de tensiones de Cauchy para cierto medio continuo
+    (un fluido) viene dado por $\mathbf{\sigma} = -p\mathbf{I} + \lambda Tr(\mathbf{d})\mathbf{I} + 2\mu\mathbf{d}$, donde \textbf{d} es el
+    tensor de velocidad de deformación, p es la presión hidrostática y $\lambda$, $\mu$ son
+    constantes. Dado un sistema de coordenadas cartesianas xyz, cuya base
+    ortonormal correspondiente es ${\mathbf{e_1, e_2, e_3}}$, considere que el campo de
+    velocidades viene dado por $\mathbf{v} = kx\mathbf{e_1} + ky\mathbf{e_2} + kz\mathbf{e_3}$. Tome la constante k
+    igual al $(n + 2)-1$, donde n es el  ́último dígito de su número de cédula.
+    Calcule la expresión matricial del tensor de Cauchy en la base dada.
+    \item Considere un medio continuo cuya ecuación del movimiento es
+    \begin{equation}
+        \mathbf{x}(\mathbf{X},t)=e^{mt}\mathbf{X}
+    \end{equation}
+    
+    donde m es igual al último dígito de su número de cédula más uno.
+    \begin{enumerate}
+        \item Encuentre la expresión general del estiramiento.
+        \item Encuentre el volumen que tendría para $t=5$ un medio continuo que en la
+        configuración de referencia es una esfera de radio 1.
+    \end{enumerate}
+   \item Considere un medio continuo cuya ecuación del movimiento es
+   \begin{equation}
+       \mathbf{x}(\mathbf{X},t)=(mt+1)\mathbf{X}
+   \end{equation}
+   
+   donde m es igual al último dígito de su número de cédula más uno.
+   \begin{enumerate}
+       \item Encuentre la expresión del alargamiento unitario para $t=2$.
+       \item Encuentre el volumen que tendría para $t=5$ un medio continuo que en la
+       configuración de referencia es una esfera de radio 1.
+   \end{enumerate}
+
+\end{enumerate}
+\end{document}
