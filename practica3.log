@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2023.4.10)  2 MAY 2023 09:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2023.4.10)  3 MAY 2023 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,22 +642,27 @@ l.32 \begin
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+<tp3-1.png, id=6, 563.706pt x 218.61674pt>
+File: tp3-1.png Graphic file (type png)
+<use tp3-1.png>
+Package pdftex.def Info: tp3-1.png  used on input line 36.
+(pdftex.def)             Requested size: 386.95897pt x 150.07513pt.
 
-c:/Users/bicho/OneDrive/Documentos/universidad de cuenca/Medios Continuos/practica3.tex:39: LaTeX Error: Unicode character ́ (U+0301)
+c:/Users/bicho/OneDrive/Documentos/universidad de cuenca/Medios Continuos/practica3.tex:45: LaTeX Error: Unicode character ́ (U+0301)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39     igual al $(n + 2)-1$, donde n es el  ́
+l.45     igual al $(n + 2)-1$, donde n es el  ́
                                                 último dígito de su númer...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [1
 
-{C:/Users/bicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (practica3.aux
+{C:/Users/bicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./tp3-1.png>] [2] (practica3.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
@@ -665,17 +670,17 @@ Package rerunfilecheck Info: File `practica3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23675 strings out of 475284
- 448520 string characters out of 2774105
+ 23690 strings out of 475284
+ 448710 string characters out of 2774105
  782336 words of memory out of 3000000
- 44740 multiletter control sequences out of 15000+600000
+ 44750 multiletter control sequences out of 15000+600000
  477448 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,94p,495b,450s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,7n,94p,495b,611s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on practica3.pdf (1 page, 99297 bytes).
+Output written on practica3.pdf (2 pages, 114952 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
