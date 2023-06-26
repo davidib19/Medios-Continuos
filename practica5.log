@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2023.4.10)  12 JUN 2023 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2023.4.10)  26 JUN 2023 11:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -641,9 +641,17 @@ If that doesn't work, type  X <return>  to quit.
 
 LaTeX Warning: Reference `eq:LemaR' on page 1 undefined on input line 36.
 
+
+LaTeX Warning: Reference `fig:chorro' on page 1 undefined on input line 47.
+
+<tp5-1.png, id=6, 512.51476pt x 302.3295pt>
+File: tp5-1.png Graphic file (type png)
+<use tp5-1.png>
+Package pdftex.def Info: tp5-1.png  used on input line 53.
+(pdftex.def)             Requested size: 241.84843pt x 142.6669pt.
 [1
 
-{C:/Users/bicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (practica5.aux
+{C:/Users/bicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./tp5-1.png>] (practica5.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
@@ -663,17 +671,17 @@ Package rerunfilecheck Info: Checksums for `practica5.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23651 strings out of 475284
- 448058 string characters out of 2774105
- 778288 words of memory out of 3000000
- 44731 multiletter control sequences out of 15000+600000
+ 23672 strings out of 475284
+ 448329 string characters out of 2774105
+ 782288 words of memory out of 3000000
+ 44746 multiletter control sequences out of 15000+600000
  475607 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,94p,495b,450s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,7n,94p,495b,602s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/bicho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on practica5.pdf (1 page, 117344 bytes).
+Output written on practica5.pdf (1 page, 251234 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
